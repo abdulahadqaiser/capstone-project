@@ -1,0 +1,19 @@
+
+.Shop-Category
+{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+h2{
+    font-size: 38px;
+    margin-bottom: 25px;
+}
+.Category-container
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+}
