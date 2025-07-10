@@ -8,7 +8,7 @@
   import { CartContextProvider } from './components/context/cart.context.jsx'
   createRoot(document.getElementById('root')).render(
     <StrictMode>
-      <BrowserRouter>
+      <BrowserRouter basename="/capstone-project">
         <UserProvider>
           <CatagoriesProvider>
             <CartContextProvider>
